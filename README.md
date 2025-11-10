@@ -90,7 +90,7 @@ Contienen información adicional sobre el elemento que no aparece en el contenid
 
 #### Reglas y Estructura
 
-* Las etiquetas normalmente vienen en pares (apertura y cierre) (ej: <p></p>).
+* Las etiquetas normalmente vienen en pares (apertura y cierre) (ej: `<p></p>`).
 * Etiquetas vacías: Algunas etiquetas no tienen etiqueta de cierre ni contenido, como *img*, *br*, e *input*.
 * Anidamiento: Las etiquetas deben anidarse correctamente.
 
