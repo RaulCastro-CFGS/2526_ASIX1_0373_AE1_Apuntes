@@ -61,7 +61,7 @@ Es con "Link" entre [ ] y (enlace) junto a él.
 ![alt text](link github a la imagen)
 
 ### Notas al pie de página:
-[^1]: Aquí encuentras el texto de la nota al pie de página
+`[^1]`: Aquí encuentras el texto de la nota al pie de página
 
 
 ## 3. Introducción a Html
@@ -72,11 +72,11 @@ El **HTML (HyperText Markup Language)** es el lenguaje de marcado estándar para
 
 ### 3.1 Estructura y Elementos Básicos
 
-Los elementos HTML son los bloques de construcción de las páginas web. Cada elemento está delimitado por etiquetas (ej: body, head).
+Los elementos HTML son los bloques de construcción de las páginas web. Cada elemento está delimitado por etiquetas (ej: `body`, `head`).
 
 * Partes del Elemento:
-    * Etiqueta de apertura: Nombre del elemento entre < > (ej: <p>).
-    * Etiqueta de cierre: Es igual a la de apertura, pero con una barra de cierre (/) (ej: </p>).
+    * Etiqueta de apertura: Nombre del elemento entre < > (ej: `<p>`).
+    * Etiqueta de cierre: Es igual a la de apertura, pero con una barra de cierre (/) (ej: `</p>`).
     * Contenido: Lo que está entre las etiquetas.
     * Elemento: Etiqueta de apertura + Contenido + Etiqueta de cierre.
 
@@ -86,7 +86,7 @@ Contienen información adicional sobre el elemento que no aparece en el contenid
 
 * Se incluyen en la etiqueta de apertura.
 * Formato: nombre="valor" (ej: class="editor-note").
-* **RECOMENDACIÓN**: Escribir etiquetas y atributos en minúsculas.
+* **Se recomienda**: Escribir etiquetas y atributos en minúsculas.
 
 #### Reglas y Estructura
 
@@ -104,14 +104,13 @@ Contienen información adicional sobre el elemento que no aparece en el contenid
 
 Los elementos se clasifican en dos tipos:
 
-#### Elementos de Bloque (Block Elements)
+#### Elementos de Bloque
 
 * Se muestran como bloques independientes y separan un bloque de otro con una línea en blanco.
 * **Ejemplos**: h1-h6 (encabezados), p (párrafos), br (salto de línea), div (división).
 
-#### Elementos de Línea (Inline Elements)
+#### Elementos de Línea
 
-* Se muestran uno detrás de otro, **en línea**.
 * **Ejemplos**: em (énfasis/cursiva), strong (negrita/fuerte énfasis), a (hipervínculos), img, span (contenedor en línea).
 
 #### Contenedores
