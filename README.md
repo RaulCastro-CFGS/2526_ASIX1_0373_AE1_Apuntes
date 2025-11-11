@@ -11,24 +11,25 @@ Para empezar, vamos a necesitar instalar **Git** (buscar en el navegador) para p
 ![Creación de un repositorio](Imagenes/image-1.png)
 Vamos a proceder a sincronizar nuestro proyecto con GitHub, para ello vamos a abrir el CMD y ejecutaremos la siguiente lista de comandos.
 
-**git init** -- Inicializar git (hacerlo siempre)
+* **git init** -- Inicializar git (hacerlo siempre)
 
-**git add .** -- Añade el único archivo existente a git (README.md)
+* **git add .** -- Añade el único archivo existente a git (README.md)
 
-**git commit -m "(mensaje)"** -- Explica los cambios de la nueva versión del proyecto en el repositorio
+* **git commit -m "(mensaje)"** -- Explica los cambios de la nueva versión del proyecto en el repositorio
 
-**git push origin main** -- Manda los cambios del proyecto a GitHub
+* **git push origin main** -- Manda los cambios del proyecto a GitHub
 
 
 
 ## 2. Introducción a Markdown
 Podemos crear un archivo de texto plano con diferentes extensiones para archivos de Markdown dependiendo del destino del archivo.
-	.markdown
-	.md
-	.mkd
-	.mkdown
-	.text
-	.mdown
+*	.markdown
+*	.md
+*	.mkd
+*	.mkdown
+*	.text
+*	.mdown
+
 Github utiliza .md
 
 Etiquetas básicas de Markdown:
