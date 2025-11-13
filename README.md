@@ -128,24 +128,29 @@ Los elementos se clasifican en dos tipos:
 
 Se utilizan para permitir al usuario **enviar datos a un servidor**.
 
-| Etiqueta | Descripción | Atributos Comunes |
-| : | : | : |
-| **form** | Define un formulario. | action (URL de envío), method (POST/GET). |
-| **input** | Crea diversos campos interactivos. | type (text, password, radio, checkbox, submit), id, name, value, required. |
-| **select/ option** | Crea menús desplegables. | name, id, size, multiple, value. |
-| **textarea** | Crea un área de texto para múltiples líneas. | name, id, rows, cols, required. |
+* form: Define un formulario.
+    * Atributos Comunes: action (URL de envío), method (POST/GET).
+* input: Crea diversos campos interactivos.
+    * Atributos Comunes: type (text, password, radio, checkbox, submit), id, name, value, required.
+* select / option: Crea menús desplegables.
+    * Atributos Comunes: name, id, size, multiple, value.
+* textarea: Crea un área de texto para múltiples líneas.
+    * Atributos Comunes: name, id, rows, cols, required.
 
 #### Tablas (table)
 
 Se usan para **mostrar datos en formato tabular** (filas y columnas), **NUNCA para estructurar el diseño** de la página web.
 
-| Etiqueta | Función | Atributos para Fusionar Celdas |
-| : | : | : |
-| **table** | Define la tabla. | - |
-| **tr** | Define una fila. | - |
-| **th** | Celda de encabezado. | colspan (fusiona columnas), rowspan (fusiona filas). |
-| **td** | Celda de datos. | colspan, rowspan. |
-| **thead, tbody, tfoot** | Agrupan el encabezado, cuerpo y pie. | - |
+* table: Define la tabla.
+    * Atributos para Fusionar Celdas: -
+* tr: Define una fila.
+    * Atributos para Fusionar Celdas: -
+* th: Celda de encabezado.
+    * Atributos para Fusionar Celdas: colspan (fusiona columnas), rowspan (fusiona filas).
+* td: Celda de datos.
+    * Atributos para Fusionar Celdas: colspan, rowspan.
+* thead, tbody, tfoot: Agrupan el encabezado, cuerpo y pie.
+    * Atributos para Fusionar Celdas: -
 
 
 
