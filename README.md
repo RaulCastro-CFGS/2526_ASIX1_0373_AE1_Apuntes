@@ -150,7 +150,7 @@ Se usan para **mostrar datos en formato tabular** (filas y columnas), **NUNCA pa
 * td: Celda de datos.
     * Atributos para Fusionar Celdas: colspan, rowspan.
 * thead, tbody, tfoot: Agrupan el encabezado, cuerpo y pie.
-    * Atributos para Fusionar Celdas: -
+   
 
 
 
