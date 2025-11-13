@@ -69,7 +69,7 @@ Es con "Link" entre [ ] y (enlace) junto a él.
 
 El **HTML (HyperText Markup Language)** es el lenguaje de marcado estándar para crear páginas web. Define la estructura y el contenido de una página. **No es un lenguaje de programación**.
 
----
+
 
 ### 3.1 Estructura y Elementos Básicos
 
@@ -95,11 +95,11 @@ Contienen información adicional sobre el elemento que no aparece en el contenid
 * Etiquetas vacías: Algunas etiquetas no tienen etiqueta de cierre ni contenido, como *img*, *br*, e *input*.
 * Anidamiento: Las etiquetas deben anidarse correctamente.
 
-* Partes de un Documento Básico: Un documento incluye **!DOCTYPE html**, **html**, y dentro de este, **head** y **body**.
+* Partes de un Documento Básico: Un documento incluye **!DOCTYPE html**, **html**, y dentro de este, head y body.
     * **head**: Contiene metadatos y enlaces a estilos/scripts.
     * **body**: Contiene el contenido principal que se muestra a los usuarios.
 
----
+
 
 ### 3.2 Tipos de Elementos
 
@@ -120,7 +120,7 @@ Los elementos se clasifican en dos tipos:
 * **span (Contenedor en Línea)**: Agrupa una pequeña parte de texto **dentro de una línea**.
 * **Elementos Semánticos (HTML5)**: Describen el contenido dándole un significado correcto. Ejemplos: header, footer, article, section, nav.
 
----
+
 
 ### 3.3 Formularios y Tablas
 
@@ -129,7 +129,7 @@ Los elementos se clasifican en dos tipos:
 Se utilizan para permitir al usuario **enviar datos a un servidor**.
 
 | Etiqueta | Descripción | Atributos Comunes |
-| :--- | :--- | :--- |
+| : | : | : |
 | **form** | Define un formulario. | action (URL de envío), method (POST/GET). |
 | **input** | Crea diversos campos interactivos. | type (text, password, radio, checkbox, submit), id, name, value, required. |
 | **select/ option** | Crea menús desplegables. | name, id, size, multiple, value. |
@@ -140,14 +140,14 @@ Se utilizan para permitir al usuario **enviar datos a un servidor**.
 Se usan para **mostrar datos en formato tabular** (filas y columnas), **NUNCA para estructurar el diseño** de la página web.
 
 | Etiqueta | Función | Atributos para Fusionar Celdas |
-| :--- | :--- | :--- |
+| : | : | : |
 | **table** | Define la tabla. | - |
 | **tr** | Define una fila. | - |
 | **th** | Celda de encabezado. | colspan (fusiona columnas), rowspan (fusiona filas). |
 | **td** | Celda de datos. | colspan, rowspan. |
 | **thead, tbody, tfoot** | Agrupan el encabezado, cuerpo y pie. | - |
 
----
+
 
 ### 3.4 Legibilidad y Validación
 
